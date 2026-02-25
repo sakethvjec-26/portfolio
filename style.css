@@ -272,3 +272,42 @@ body {
         padding: 30px 15px;
     }
 }
+
+.age-box {
+    text-align: center;
+}
+
+input[type="date"] {
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: 20px 0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="date"]:focus {
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+#result strong {
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.age-box .project-btn {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
